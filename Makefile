@@ -1,6 +1,6 @@
 CC = gcc
 TARGET = sort
-OBJECTS = selection.o bubble.o main.o
+OBJECTS = selection.o bubble.o insertion.o quick.o merge.o main.o
 
 all : $(TARGET)
 	
